@@ -1,0 +1,41 @@
+.slider-navigation {
+	float: left;
+	height: 345px;
+}
+.slider-navigation div {
+	display: table;
+	width: 200px;
+	height: 25%;
+}
+.slider-navigation div div {
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #FFF;
+	border-bottom: 1px solid #999;
+}
+.slider-navigation div .active {
+	background-color: #F87100;
+}
+.slider-navigation img {
+	display: none;
+	position: relative;
+	left: 199px;
+	z-index: 2;
+}
+.slider-navigation div .active img {
+	display: block;
+}
+.slider-view {
+	position: relative;
+	float: left;
+	width: 910px;
+	overflow: hidden;
+}
+.slider-images {
+	position: relative;
+	left: 0;
+	width: 3640px;
+}
+.slider-images img {
+	float: left;
+}
